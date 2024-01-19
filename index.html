@@ -1,21 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Penguin Clothing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .bebas-neue {
+      font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .montserrat {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .roboto {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+
 </head>
+
 <body>
-  <header>
-    <nav>
-
+  <header class="bg-[#FFFBF0] pt-10 pr-36 pb-16 pl-32">
+    <nav class="flex justify-between items-center mb-3">
+      <div class="nav-logo flex items-center gap-1">
+        <img src="icons/logo.png" alt="">
+        <h2 class="montserrat text-2xl font-bold"><span class="text-[#A4BC46]">Penguin</span> Fashion</h2>
+      </div>
+      <div class="links flex gap-14 roboto text-base font-medium">
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+      </div>
     </nav>
-    <div>
-
-    </div>
+    <section class="banner flex justify-between items-center">
+      <div class="banner-title">
+        <h1 class="bebas-neue text-7xl"><span class="text-[#FABE4C]">Be the Penguins</span><br> of Winter</h1>
+        <p class="text-[#3E3E3E] .roboto text-2 mt-[-4px] mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consequuntur, iste?</p>
+        <button
+          class="flex justify-center items-center bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg uppercase border-0"><img
+            src="icons/shopping-cart 1.png" alt="" class="w-6">
+          <p> &nbsp; Buy Now</p>
+        </button>
+      </div>
+      <img src="images/model.png" alt="" class="mr-12">
+    </section>
   </header>
-  <main></main>
+  <main class="pt-12 px-32 pb-48">
+    <section class="woman mb-24">
+      <h2 class="bebas-neue text-5xl">W0Man Jacket</h2>
+      <div class="cart-container grid grid-cols-3 gap-7 mt-16">
+        <div class="cart px-4 py-6 rounded-2xl shadow-gray-950 shadow-sm">
+          <div class="flex justify-center items-center img-container bg-[#F1F1F1] rounded-2xl">
+            <img src="images/jacket-1.png" class="w-9/12">
+          </div>
+          <h4 class="roboto text-[#363958] text-2xl font-bold mt-4">Snowboard Jacket Mens</h4>
+          <p class="roboto text-[#3E3E3E] my-3">Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.</p>
+          <div class="price flex justify-between">
+            <h3 class="roboto text-[#FABE4C] text-4xl font-black">$234</h3>
+            <button
+              class="flex justify-center items-center bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg uppercase border-0"><img
+                src="icons/shopping-cart 1.png" alt="" class="w-6">
+              <p> &nbsp; Buy Now</p>
+            </button>
+          </div>
+        </div>
+        <div class="cart px-4 py-6 rounded-2xl shadow-gray-950 shadow-sm">
+          <div class="flex justify-center items-center img-container bg-[#F1F1F1] rounded-2xl">
+            <img src="images/jacket-2.png" class="w-9/12">
+          </div>
+          <h4 class="roboto text-[#363958] text-2xl font-bold mt-4">Snowboard Jacket Mens</h4>
+          <p class="roboto text-[#3E3E3E] my-3">Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.</p>
+          <div class="price flex justify-between">
+            <h3 class="roboto text-[#FABE4C] text-4xl font-black">$234</h3>
+            <button
+              class="flex justify-center items-center bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg uppercase border-0"><img
+                src="icons/shopping-cart 1.png" alt="" class="w-6">
+              <p> &nbsp; Buy Now</p>
+            </button>
+          </div>
+        </div>
+        <div class="cart px-4 py-6 rounded-2xl shadow-gray-950 shadow-sm">
+          <div class="flex justify-center items-center img-container bg-[#F1F1F1] rounded-2xl">
+            <img src="images/jacket-3.png" class="w-9/12">
+          </div>
+          <h4 class="roboto text-[#363958] text-2xl font-bold mt-4">Snowboard Jacket Mens</h4>
+          <p class="roboto text-[#3E3E3E] my-3">Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.</p>
+          <div class="price flex justify-between">
+            <h3 class="roboto text-[#FABE4C] text-4xl font-black">$234</h3>
+            <button
+              class="flex justify-center items-center bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg uppercase border-0"><img
+                src="icons/shopping-cart 1.png" alt="" class="w-6">
+              <p> &nbsp; Buy Now</p>
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      </div>
+    </section>
+    <section class="man mb-24">
+      <h2 class="bebas-neue text-5xl">W0Man Jacket</h2>
+      <div class="cart-container grid grid-cols-3 gap-7 mt-16">
+        <div class="cart px-4 py-6 rounded-2xl shadow-gray-950 shadow-sm">
+          <div class="flex justify-center items-center img-container bg-[#F1F1F1] rounded-2xl">
+            <img src="images/jacket-4.png" class="w-9/12">
+          </div>
+          <h4 class="roboto text-[#363958] text-2xl font-bold mt-4">Snowboard Jacket Mens</h4>
+          <p class="roboto text-[#3E3E3E] my-3">Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.</p>
+          <div class="price flex justify-between">
+            <h3 class="roboto text-[#FABE4C] text-4xl font-black">$234</h3>
+            <button
+              class="flex justify-center items-center bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg uppercase border-0"><img
+                src="icons/shopping-cart 1.png" alt="" class="w-6">
+              <p> &nbsp; Buy Now</p>
+            </button>
+          </div>
+        </div>
+        <div class="cart px-4 py-6 rounded-2xl shadow-gray-950 shadow-sm">
+          <div class="flex justify-center items-center img-container bg-[#F1F1F1] rounded-2xl">
+            <img src="images/jacket-5.png" class="w-9/12">
+          </div>
+          <h4 class="roboto text-[#363958] text-2xl font-bold mt-4">Snowboard Jacket Mens</h4>
+          <p class="roboto text-[#3E3E3E] my-3">Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.</p>
+          <div class="price flex justify-between">
+            <h3 class="roboto text-[#FABE4C] text-4xl font-black">$234</h3>
+            <button
+              class="flex justify-center items-center bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg uppercase border-0"><img
+                src="icons/shopping-cart 1.png" alt="" class="w-6">
+              <p> &nbsp; Buy Now</p>
+            </button>
+          </div>
+        </div>
+        <div class="cart px-4 py-6 rounded-2xl shadow-gray-950 shadow-sm">
+          <div class="flex justify-center items-center img-container bg-[#F1F1F1] rounded-2xl">
+            <img src="images/jacket-6.png" class="w-9/12">
+          </div>
+          <h4 class="roboto text-[#363958] text-2xl font-bold mt-4">Snowboard Jacket Mens</h4>
+          <p class="roboto text-[#3E3E3E] my-3">Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.</p>
+          <div class="price flex justify-between">
+            <h3 class="roboto text-[#FABE4C] text-4xl font-black">$234</h3>
+            <button
+              class="flex justify-center items-center bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg uppercase border-0"><img
+                src="icons/shopping-cart 1.png" alt="" class="w-6">
+              <p> &nbsp; Buy Now</p>
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      </div>
+    </section>
+    <section class="grid grid-cols-2 gap-24 items-center">
+      <div class="description-container">
+        <div class="description">
+          <div class="roboto wax flex items-center  ring-2 ring-offset-4 ring-black ring-opacity-5 p-4 rounded-2xl mb-6">
+            <img src="icons/house.png" alt="" class="w-20 mr-9">
+            <div>
+              <h3 class="text-[#363958] text-2xl font-bold mb-4">Find the Perfect Fit</h3>
+              <p class="text-[#3E3E3E] ">Everybody is different, which is why we offer style for everybody</p>
+            </div>
+          </div>
+          <div class="roboto wax flex items-center  ring-2 ring-offset-4 ring-black ring-opacity-5 p-4 rounded-2xl mb-6">
+            <img src="icons/box.png" alt="" class="w-20 mr-9">
+            <div>
+              <h3 class="text-[#363958] text-2xl font-bold mb-4">Free Exchanges</h3>
+              <p class="text-[#3E3E3E] ">Everybody is different, which is why we offer style for everybody</p>
+            </div>
+          </div>
+          <div class="roboto wax flex items-center  ring-2 ring-offset-4 ring-black ring-opacity-5 p-4 rounded-2xl mb-6">
+            <img src="icons/question.png" alt="" class="w-20 mr-9">
+            <div>
+              <h3 class="text-[#363958] text-2xl font-bold mb-4">Contact Our Seller</h3>
+              <p class="text-[#3E3E3E] ">Everybody is different, which is why we offer style for everybody</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/shopping.png" alt="">
+    </section>
+  </main>
   <footer></footer>
+  <style>
+    * {
+      /* border: 2px solid black; */
+    }
+  </style>
 </body>
+
 </html>
